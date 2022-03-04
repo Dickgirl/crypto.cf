@@ -72,11 +72,11 @@ new Vue({
     iconbase : 'https://raw.githubusercontent.com/rainner/binance-watch/master/public/images/icons/',
     cache    : {},             // coins data cache
     coins    : [],             // live coin list from api
-    asset    : 'BTC',          // filter by base asset pair
+    asset    : 'USDT',          // filter by base asset pair
     search   : '',             // filter by search string
     sort     : 'assetVolume',  // sort by param
     order    : 'desc',         // sort order ( asc, desc )
-    limit    : 50,             // limit list
+    limit    : 0,             // limit list
     status   : 0,              // socket status ( 0: closed, 1: open, 2: active, -1: error )
     sock     : null,           // socket inst
     cx       : 0,
